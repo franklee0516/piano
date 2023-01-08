@@ -1,0 +1,31 @@
+main{
+    background-color: #f1f1f1;
+    
+
+}
+.product{
+    display: inline-block;
+    color:dimgrey;
+    padding: 50px;
+    margin-top: 90px;
+    
+    
+}
+.img{
+    margin-top: 20px;
+   float: left;
+    margin-right: 60px;
+    height: 400px;
+    width: 400px;
+}
+.add_cart_btn{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #8E6E56;
+    width: 150px;
+    
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding:10px 0px;
+}

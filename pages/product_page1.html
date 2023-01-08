@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/product_page.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
+    <title>piano_market/product_page</title>    
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+    <div class="header__inner">
+      <nav class="header__nav nav" id="js-nav">
+          <ul class="nav__items nav-items">
+            <li class="nav-items__item"><a href="../pages/index.html"><i class='bx bx-home'></i>  home</a></li>
+            <li class="nav-items__item"><a href="../pages/contact.html"><i class='bx bx-envelope'></i>  contact our</menu></a></li>
+            <li class="nav-items__item"><a href="../pages/login.html"><i class='bx bx-user'></i>  account</a></li>
+            <li class="nav-items__item"><a href="../pages/faq.html"><i class='bx bx-question-mark'></i>  FAQ</a></li>
+            <li class="nav-items__item"><a href="../pages/aboutus.html"><i class='bx bx-group'></i>  About us</a></li>
+          </ul>
+        </nav>
+
+        <button class="header__hamburger hamburger" id="js-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      
+        <a class="title" href="../pages/index.html">
+          piano market
+        </a>
+      <div style="display: flex;">
+        <a  style="margin-top: 2px;margin-right: 15px;"class="icon" href="../pages/login.html">
+          <i  class='bx bx-user icon' ></i>
+        </a>
+      
+        <i style="margin-right: 20px;" class='bx bx-shopping-bag icon' id="cart-icon"></i>
+      </div>
+      
+    </div>
+    
+      
+     
+    <div class="nav container">
+      <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          
+          <div class="cart-content">
+            
+          </div>
+          
+          <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">$0</div>
+          </div>
+          <hr>
+          <button type="button" class="btn-buy">Buy Now</button>
+          <i class='bx bx-x' id="close-cart"></i>
+
+      </div>
+  </div>
+  </header>
+    <main>
+        <div class="product">
+            <img  class="img product-img" src="../assets/images/CFX.jpg" alt="">
+             
+                <h1 class="product-title " style="margin-bottom: 2px;">CFX /YAMAHA</h1>
+              
+                <span class="price" style="margin-top: 2px;font-size: 18px; ">$150000</span>
+              
+                <p style="margin-right: 60px; width: 100px;" class='.add_cart_btn bx bx-shopping-bag add-cart'>加入購物車</p>
+              
+                <p style=" line-height: 30px; margin-top: 50px;">Yamaha 自 1902 年開始製造平台型鋼琴以來，今年剛好是 120 週年。自 1950 年推出第一代演奏會平台型鋼琴開始，Yamaha 持續與全球的鋼琴家合作，不斷對鋼琴進行改良。
+
+                    這款新型 CFX 是 2010 年發布的 CFX 改良版型號，是歷經約 12 年的研發時間所呈現的成果。「為您的專屬時刻而設計。」秉持這一概念，明確的目標始終是創造出一台鋼琴，可以為音樂家凝聚「餘音繞樑，人琴合一」的時刻。我們全新的「人琴合一概念」設計理念，目標是希望演奏時讓演奏者和鋼琴達成和諧統一的境界，將琴鍵敲擊出的音符傳遞給聽眾時盡可能完整全方位的呈現。為此，我們最佳化零件材料、結構和製作方法。例如，琴框和後柱利用 Yamaha 開發的木材熟成技術 A.R.E.*（共鳴強化），新款CFX的響板將震動轉化為共鳴音時顯得更加有力。隨著全新 CFX 的首次面市，Yamaha 的目標是希望其成為頂級演奏鋼琴市場銷售的佼佼者。</p>
+        </div>
+      
+        
+          
+    </main>
+    <footer class="footer">
+      <div >
+        <h1 style="font-size: 18px;">about the shop</h1>
+        
+        <p>No.200 zhongbei Road</p>
+        <p>zhongli taoyuan City</p>
+        <p>Taiwan</p>
+      </div>
+      <div> 
+        <h1 style="font-size: 18px;">Menu</h1>
+        <a class="footer_btn" href="../pages/index.html">home</a><br>
+        <a class="footer_btn" href="../pages/contact.html">contact our</a><br>
+        <a class="footer_btn" href="../pages/login.html">account</a><br>
+        <a class="footer_btn" href="../pages/faq.html">FAQ</a><br>
+        <a class="footer_btn" href="../pages/privacy_policy.html">privacy policy</a>
+      </div>
+    </footer>
+  </div>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    height: 100%;
+    place-items: center;
+}
+
+.wrapper {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.image-section1 {
+    width: 30%;
+    float: left;
+}
+
+.image-section1 img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+.content h1 {
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #b60112;
+    margin-top: 25px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.image-section2 {
+    float: right;
+}
+
+.image-section2 img {
+    width: 40%;
+}
+
+.box {
+    width: 80%;
+    margin: 200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.box .heading {
+    background-color: burlywood;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.faqs {
+    width: 80%;
+    font-size: x-large;
+    padding: 0px 100px 100px;
+}
+
+.detail {
+    width: 80%;
+}
+
+.title1 {
+    margin-top: 10%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    text-align: center;
+    width: auto;
+    place-items: center;
+}
+
+.team .team_member {
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+
+.team .team_member h3 {
+    color: black;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+}

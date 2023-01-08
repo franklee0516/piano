@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>piano_market</title>   
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <div class="header__inner">
+            <nav class="header__nav nav" id="js-nav">
+                <ul class="nav__items nav-items">
+                  <li class="nav-items__item"><a href="../pages/index.html"><i class='bx bx-home'></i>  home</a></li>
+                  <li class="nav-items__item"><a href="../pages/contact.html"><i class='bx bx-envelope'></i>  contact us</menu></a></li>
+                  <li class="nav-items__item"><a href="../pages/login.html"><i class='bx bx-user'></i>  account</a></li>
+                  <li class="nav-items__item"><a href="../pages/faq.html"><i class='bx bx-question-mark'></i>  FAQ</a></li>
+                  <li class="nav-items__item"><a href="../pages/aboutus.html"><i class='bx bx-group'></i>  About us</a></li>
+                </ul>
+              </nav>
+      
+              <button class="header__hamburger hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            
+              <a class="title" href="../pages/index.html">
+                piano market
+              </a>
+            <div style="display: flex;">
+              <a  style="margin-top: 2px;margin-right: 15px;"class="icon" href="../pages/login.html">
+                <i  class='bx bx-user icon' ></i>
+              </a>
+            
+              <i style="margin-right: 20px;" class='bx bx-shopping-bag icon' id="cart-icon"></i>
+            </div>
+            
+          </div>
+          
+            
+           
+          <div class="nav container">
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                
+                <div class="cart-content">
+                  
+                </div>
+                
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <hr>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+
+            </div>
+        </div>
+        </header>
+
+        <main>
+          
+              <section class="top-warapper">
+                <div class="rotation-container">
+                  <div>
+                      <ul class="rotation_ul">
+                          <li class="rotation-item rotation-item1"></li>
+                          <li class="rotation-item rotation-item2"></li>
+                          <li class="rotation-item rotation-item3"></li>
+                          <li class="rotation-item rotation-item4"></li>
+                          <li class="rotation-item rotation-item5"></li>
+                      </ul>
+                  </div>
+                
+                  <div class="focus-container">
+                      <ul class="focus_ul">
+                          <li><div class="focus-item focus-item1"></div></li>
+                          <li><div class="focus-item focus-item2"></div></li>
+                          <li><div class="focus-item focus-item3"></div></li>
+                          <li><div class="focus-item focus-item4"></div></li>
+                          <li><div class="focus-item focus-item5"></div></li>
+                      </ul>
+                  </div>
+              </div>
+              </section>
+        
+                <div class="Classification_tables">
+                    <p>商品</p>
+                    <a class="skip" href="#grand"> 平台式鋼琴</a>
+                    <br>
+                    <a class="skip" href="#uplight"> 直立式鋼琴</a>
+                    <br>
+                    <a class="skip" href="#electronic">電子琴</a> 
+                    <br>
+                    <a class="skip" href="#other"> 其他雜項</a>
+                </div>            
+             
+              
+                
+              
+              
+              <div class="tin product_ranking">
+              
+                <h1 style="margin-left:55px;margin-bottom: 0;">Rangking</h1>
+                <hr width="90%" size="2px;" color="black" noshade="" style="margin-left:50px; margin-bottom: 0;">
+                <ol style="display: flex; flex-wrap: wrap; flex-direction: row">
+                  <li>
+                    <p style="margin-left: 20px;margin-bottom: 0; font-size: 20px;">&#9312;</p>
+                    <div class="classic classic1">
+                    <div class="effect" >
+                      <img class="product-img" src="../assets/images/CFX.jpg" style=" height: 260px;width: 260px;">
+                      <a  href="../pages/product_page1.html">
+                        <div class="mask">
+                            <div class="caption">watch more...</div>
+                        </div>
+                      </a>
+                    </div>
+                      <p class="product_name product-title" style="width: 260px; font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA CFX</p>
+                      <span class="price">$150000</span>
+                      <i style="margin-right: 60px;" class='bx bx-shopping-bag add-cart'>加入購物車</i>
+                    
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <p style="margin-left: 20px;margin-bottom: 0; font-size: 20px;">&#9313;</p>
+                    <div class="classic classic7">
+                      <div class="effect" >
+                        <img class="product-img" src="../assets/images/K-500.JPG" style=" height: 260px;width: 260px;">
+                        <a  href="#">
+                            <div class="mask">
+                                <div class="caption">watch more...</div>
+                            </div>
+                        </a>
+                        <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KAWAI K-500</p>
+                        <span class="price">$8980</span>
+                        <i class='bx bx-shopping-bag add-cart'>加入購物車</i>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <p style="margin-left: 20px;margin-bottom: 0; font-size: 20px;">&#9314; </p>
+                    <div class="classic classic4">
+                      <div class="effect" >
+                        <img class="product-img" src="../assets/images/C3X_espressivo.jpg" style=" height: 260px;width: 260px;">
+                        <a  href="#">
+                            <div class="mask">
+                                <div class="caption">watch more...</div>
+                            </div>
+                        </a>
+                        <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA C3X espressivo</p>
+                        <span class="price">$98000</span>
+                        <i class='bx bx-shopping-bag add-cart'>加入購物車</i>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+                
+              
+                <h1 id="grand" style="margin-left:50px;margin-bottom: 0;">Grand Piano</h1>
+                <hr width="90%" size="2px;" color="black" noshade="" style="margin-left:50px; margin-bottom: 0;">
+                  <div class="tin" style=" margin-left: 40px;">  
+                    <div class="classic classic1">
+                        <div class="effect" >
+                          <img class="product-img" src="../assets/images/CFX.jpg" style=" height: 260px;width: 260px;">
+                          <a  href="../pages/product_page1.html">
+                              <div class="mask">
+                                  <div class="caption">watch more...</div>
+                              </div>
+                          </a>
+                          <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA CFX</p>
+                          <span class="price">$150000</span>
+                          <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                        </div>
+                    </div>
+                    <div class="classic classic2">
+                      <div class="effect" >
+                        <img class="product-img" src="../assets/images/IMG_3419 .jpg" style=" height: 260px;width: 260px;">
+                        <a  href="../pages/product_page2.html">
+                            <div class="mask">
+                                <div class="caption">watch more...</div>
+                            </div>
+                        </a>
+                        <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">STEINWAY BLACK DIAMOND </p>
+                        <span class="price">$298000</span>
+                        <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                      </div>
+                    </div>
+                    <div class="classic classic3">
+                      <div class="effect" >
+                        <img class="product-img" src="../assets/images/EX-L.jpg" style=" height: 260px;width: 260px;">
+                        <a  href="../pages/product_page3.html">
+                          <div class="mask">
+                              <div class="caption">watch more...</div>
+                          </div>
+                        </a>
+                        <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KAWAI EX-L</p>
+                        <span class="price">$128000</span>
+                        <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                      </div>
+                    </div>
+                    <div class="classic classic4">
+                      <div class="effect" >
+                        <img class="product-img" src="../assets/images/C3X_espressivo.jpg" style=" height: 260px;width: 260px;">
+                        <a  href="#">
+                          <div class="mask">
+                            <div class="caption">watch more...</div>
+                          </div>
+                        </a>
+                        <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA C3X espressivo</p>
+                        <span class="price">$98000</span>
+                        <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                      </div>
+                    </div>
+                  </div>
+             
+              <div class="tin">
+                <h1 id="uplight" style="margin-left:50px;margin-bottom: 0;">Uplight Piano</h1>
+                <hr width="90%" size="2px;" color="black" noshade="" style="margin-left:50px; margin-bottom: 0;">
+                <div class="tin" style=" margin-left: 40px;">
+                  <div class="classic classic5">
+                    <div class="effect" >
+                      <img class="product-img" src="../assets/images/YUS1.jpg" style=" height: 260px;width: 260px;">
+                      <a  href="#">
+                        <div class="mask">
+                            <div class="caption">watch more...</div>
+                        </div>
+                      </a>
+                      <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA YUS1</p>
+                      <span class="price">$49800</span>
+                      <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                    </div>
+                  </div>
+
+                  <div class="classic classic6">
+                    <div class="effect" >
+                      <img class="product-img" src="../assets/images/YUS3Wn.jpg" style=" height: 260px;width: 260px;">
+                      <a  href="#">
+                        <div class="mask">
+                            <div class="caption">watch more...</div>
+                        </div>
+                      </a>
+                      <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA YUS3Wn</p>
+                      <span class="price">$39800</span>
+                      <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                    </div>
+                  </div>
+
+                  <div class="classic classic7">
+                    <div class="effect" >
+                      <img class="product-img" src="../assets/images/K-700.JPG" style=" height: 260px;width: 260px;">
+                      <a  href="#">
+                        <div class="mask">
+                            <div class="caption">watch more...</div>
+                        </div>
+                      </a>
+                      <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KAWAI K-700</p>
+                      <span class="price">$45000</span>
+                      <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                    </div>
+                  </div>
+
+                  <div class="classic classic8">
+                    <div class="effect" >
+                      <img class="product-img" src="../assets/images/K-500.JPG" style=" height: 260px;width: 260px;">
+                      <a  href="#">
+                        <div class="mask">
+                            <div class="caption">watch more...</div>
+                        </div>
+                      </a>
+                      　
+                      <i id="electronic" class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                    </div>             
+                  </div>
+                
+                </div>
+                <h1  style="margin-left:50px;margin-bottom: 0;">Electronic Piano</h1>
+                <hr width="90%" size="2px;" color="black" noshade="" style="margin-left:50px; margin-bottom: 0;">
+                <div class="tin" style=" margin-left: 40px;">
+
+                <div class="classic classic1">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3581.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">Casio Privia PX-700</p>
+                    <span class="price">$25000</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic2">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3582.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KORG LP-180</p>
+                    <span class="price">$12800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic3">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3583.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA ARIUS YDP-165</p>
+                    <span class="price">$29800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic4">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3584.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KAWAI DIGITAL CN29</p>
+                    <span class="price">$29800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic5">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3586.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">Roland Digital RP701</p>
+                    <span class="price">$27800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic6">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3587.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA CLP-735</p>
+                    <span class="price">$32800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic7">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3588.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">KAWAI Concert CA49</p>
+                    <span class="price">$49800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+                <div class="classic classic8">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3592.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">Casio CELVIANO GP-510</p>
+                    <span class="price">$98000</span>
+                    <i id="other"　class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+             </div>
+             <h1  style="margin-left:50px;margin-bottom: 0;">Others</h1>
+              <hr width="90%" size="2px;" color="black" noshade="" style="margin-left:50px; margin-bottom: 0;">
+              <div class="tin" style="  margin-left: 40px;">
+
+                <div class="classic classic1">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3593.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA piano chair #1</p>
+                    <span class="price">$16800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic2">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3594.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA piano chair #2</p>
+                    <span class="price">$6800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic3">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3595.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA piano chair #3</p>
+                    <span class="price">$39800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic4">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3600.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA piano Pedal</p>
+                    <span class="price">$39800</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic5">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3599.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA Piano Cleaner1</p>
+                    <span class="price">$299</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic6">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3598.jpg" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA Piano Cleaner2</p>
+                    <span class="price">$498</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+                <div class="classic classic7">
+                  <div class="effect" >
+                    <img class="product-img" src="../assets/images/IMG_3604.JPG" style=" height: 260px;width: 260px;">
+                    <a  href="#">
+                      <div class="mask">
+                          <div class="caption">watch more...</div>
+                      </div>
+                    </a>
+                    <p class="product_name product-title" style="font-size: 19px; color: rgb(66, 65, 65);margin-top: 7px;">YAMAHA Metronome </p>
+                    <span class="price">$980</span>
+                    <i class='bx bx-shopping-bag add-cart'>加入購物車</i> 
+                  </div>             
+                </div>
+
+
+              </div>
+            
+        </main>
+        
+
+        <footer class="footer">
+          <div >
+            <h1 style="font-size: 18px;">about the shop</h1>
+            
+            <p>No.200 zhongbei Road</p>
+            <p>zhongli taoyuan City</p>
+            <p>Taiwan</p>
+          </div>
+          <div> 
+            <h1 style="font-size: 18px;">Menu</h1>
+            <a class="footer_btn" href="../pages/index.html">home</a><br>
+            <a class="footer_btn" href="../pages/contact.html">contact us</a><br>
+            <a class="footer_btn" href="../pages/login.html">account</a><br>
+            <a class="footer_btn" href="../pages/faq.html">FAQ</a><br>
+            <a class="footer_btn" href="../pages/privacy_policy.html">privacy policy</a>
+            
+          </div>
+        </footer>
+      </div>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/cart.js"></script>
+</body>
+</html>
